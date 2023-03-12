@@ -6,7 +6,6 @@ public:
         for(int i=0;i<tasks.size();i++){
             mp[tasks[i]]++;
         }
-
         int ans=0;
         for(auto x:mp){
             if(x.second==1){
